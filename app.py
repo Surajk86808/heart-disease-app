@@ -137,7 +137,7 @@ def show_register():
 
 def show_prediction():
     apply_theme()
-    st.title("💓 Heart Stroke Prediction by (Anshu)")
+    st.title("💓 Heart Stroke Prediction")
     st.markdown(f"👤 Logged in as: **{st.session_state.username}**")
 
     st.markdown("### ⚙️ Settings")
